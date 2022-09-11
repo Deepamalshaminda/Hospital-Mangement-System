@@ -83,6 +83,12 @@ public class addNewPatientRecord extends javax.swing.JFrame {
 
         jLabel8.setText("Any Major Disease Sufferd Earlier");
         getContentPane().add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(147, 383, 189, -1));
+
+        jTextField1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField1ActionPerformed(evt);
+            }
+        });
         getContentPane().add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(401, 58, 252, -1));
         getContentPane().add(jTextField2, new org.netbeans.lib.awtextra.AbsoluteConstraints(401, 113, 252, -1));
 
@@ -150,6 +156,10 @@ public class addNewPatientRecord extends javax.swing.JFrame {
         
     }//GEN-LAST:event_jButton2ActionPerformed
 
+    private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField1ActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -179,6 +189,7 @@ public class addNewPatientRecord extends javax.swing.JFrame {
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
+            @Override
             public void run() {
                 new addNewPatientRecord().setVisible(true);
             }
